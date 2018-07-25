@@ -1,0 +1,23 @@
+.mask{
+  position: fixed;left:0;top:0;width:100%;bottom:0;background-color: rgba(0,0,0,.6);
+  display: flex;align-items: center;justify-content: center;
+}
+.loading{
+flex-direction: column;
+}
+.loading .cricle{
+width:2.6rem;height:2.6rem;text-align: center;padding:.5rem .2rem 0;background-color: #fff;border-radius: .3rem;
+}
+.loading .cricle var{
+display: block;font-size: .26rem;margin-top:.52rem;color:#3c639e;font-weight: bolder;letter-spacing: .02rem;
+}
+.errMsg .wpr{
+ width:4.2rem;height:4.2rem;background-color: #fff;border-radius:.2rem;
+ display:flex;flex-direction: column;align-items: center;justify-content: center;
+}
+.errMsg button{
+  width:2.79rem;height:.89rem;font-size: .42rem;margin-top:.62rem;
+}
+.errMsg var{
+  font-size: .42rem;
+}
